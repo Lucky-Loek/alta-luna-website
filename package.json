@@ -1,0 +1,24 @@
+{
+  "name": "alta-luna-website",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "mix",
+    "prod": "mix --production",
+    "watch": "mix watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bulma": "^0.9.2",
+    "laravel-mix": "^6.0.13",
+    "postcss": "^8.2.8",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1"
+  }
+}
