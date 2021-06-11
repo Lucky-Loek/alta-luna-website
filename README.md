@@ -19,10 +19,9 @@ Two important rules:
 2. The result goes in the `dist` folder. As such, this is the folder you need to test during development.
 
 ```
+# Develop locally
 $ docker-compose exec app npm run dev
 # If you want webpack to autocompile changes: npm run watch
-
-# Test
 
 # Prepare for production
 $ docker-compose exec app npm run prod
