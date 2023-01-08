@@ -7,3 +7,12 @@
 @import '~@fortawesome/fontawesome-free/scss/solid';
 
 @import "~bulma/bulma";
+
+@font-face {
+    font-family: 'Plume';
+    src: url(../fonts/Plume-Free-Brush-Font.otf);
+}
+
+h1, h2, h3, h4, h5, h6, .plume {
+    font-family: 'Plume';
+}

@@ -1,22 +1,11 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/img/3J5A8006 kopiëren.jpg": "/img/3J5A8006 kopiëren.jpg",
-    "/img/Logowit.png": "/img/Logowit.png",
-    "/img/Logozwart.png": "/img/Logozwart.png",
-    "/img/PTM-20201005-0018.jpg": "/img/PTM-20201005-0018.jpg",
-    "/img/The Chain.jpg": "/img/The Chain.jpg",
-    "/img/setlists/20220218_t_strijd.jpg": "/img/setlists/20220218_t_strijd.jpg",
-    "/img/setlists/20220505_bevrijdingsfestival.jpg": "/img/setlists/20220505_bevrijdingsfestival.jpg",
-    "/img/setlists/20220615_eef.jpg": "/img/setlists/20220615_eef.jpg",
-    "/img/setlists/20220730_weitjerock.jpg": "/img/setlists/20220730_weitjerock.jpg",
     "/index.html": "/index.html",
     "/tour.html": "/tour.html",
-    "/presskit/Biografie.pdf": "/presskit/Biografie.pdf",
-    "/presskit/Foto kleur.jpg": "/presskit/Foto kleur.jpg",
-    "/presskit/Foto zwartwit.jpg": "/presskit/Foto zwartwit.jpg",
-    "/webfonts/fa-brands-400.ttf": "/webfonts/fa-brands-400.ttf",
-    "/webfonts/fa-brands-400.woff2": "/webfonts/fa-brands-400.woff2",
-    "/webfonts/fa-solid-900.ttf": "/webfonts/fa-solid-900.ttf",
-    "/webfonts/fa-solid-900.woff2": "/webfonts/fa-solid-900.woff2"
+    "/fonts/fa-brands-400.ttf": "/fonts/fa-brands-400.ttf",
+    "/fonts/fa-brands-400.woff2": "/fonts/fa-brands-400.woff2",
+    "/fonts/fa-solid-900.ttf": "/fonts/fa-solid-900.ttf",
+    "/fonts/fa-solid-900.woff2": "/fonts/fa-solid-900.woff2",
+    "/fonts/Plume-Free-Brush-Font.otf": "/fonts/Plume-Free-Brush-Font.otf"
 }

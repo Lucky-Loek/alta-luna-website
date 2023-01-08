@@ -6,8 +6,9 @@ mix
     .copy('src/tour.html', 'dist/tour.html')
 
     // Fonts
-    .copy('node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-*', 'dist/webfonts')
-    .copy('node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-*', 'dist/webfonts')
+    .copy('node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-*', 'dist/fonts')
+    .copy('node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-*', 'dist/fonts')
+    .copy('src/fonts/Plume-Free-Brush-Font.otf', 'dist/fonts')
 
     // JavaScript
     .js('src/js/app.js', 'js')
