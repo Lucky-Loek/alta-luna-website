@@ -41,7 +41,7 @@
 			clear and starry sky while on the way to your great love. Alta Luna is the
 			perfect soundtrack for that trip. This group of five friends from the
 			Netherlands are easily recognized by their melancholic sound, driving
-			drums and honest lyrics. If you like The Strokes, The War On Drugs, The
+			drums and honest lyrics. If you like The War On Drugs, The
 			National or Inhaler, you will certainly love Alta Luna.
 		</p>
 	</div>
