@@ -1,0 +1,16 @@
+[
+	{
+		"title": "The Chain",
+		"image": {
+			"url": "/img/The Chain.jpg",
+			"alt": "Cover art for single The Chain"
+		},
+		"youtube": "https://www.youtube.com/watch?v=T9gI5mdzUBI",
+		"spotify": "https://open.spotify.com/track/2dL8aR6tkVCzIKJg6jnqiw",
+		"hyperfollow": "https://distrokid.com/hyperfollow/altaluna1/the-chain",
+		"photographer": {
+			"name": "Geert Mulder",
+			"url": "http://geertmulderphotography.com"
+		}
+	}
+]

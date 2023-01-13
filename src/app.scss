@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@import "~bulma/bulma/sass/utilities/initial-variables";
+
+$black: #1e2020;
+$dark: #1e2020;
+$blue: #5176a3;
+$white: #fefcfc;
+$white-bis: #fcf9f8;
+$background: $white;
+
+@import "~bulma/bulma/bulma";
+
+@font-face {
+	font-family: 'Plume';
+	src: url(assets/fonts/Plume-Free-Brush-Font.otf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.plume {
+	font-family: 'Plume';
+}
+
+.navbar-item {
+	font-size: 1.2rem;
+	color: $white;
+}
