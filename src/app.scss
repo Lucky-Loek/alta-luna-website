@@ -3,10 +3,13 @@
 @import "~bulma/bulma/sass/utilities/initial-variables";
 
 $black: #1e2020;
-$dark: #1e2020;
+$dark: $black;
+$dark-bis: $black;
+$grey-dark: $black;
+$grey-darker: $black;
 $blue: #5176a3;
-$white: #fefcfc;
-$white-bis: #fcf9f8;
+$white: #e8bc38;
+$white-bis: #e8b338;
 $background: $white;
 
 @import "~bulma/bulma/bulma";
@@ -28,9 +31,18 @@ h6,
 
 .navbar-item {
 	font-size: 1.2rem;
-	color: $white;
+	color: invert($black) !important;
 }
 
 .navbar-menu {
 	background-color: $dark;
+}
+
+.table th, .table td {
+	border-color: $white;
+}
+
+.footer {
+	background-color: $black;
+	color: invert($black);
 }
