@@ -1,5 +1,20 @@
 [
 	{
+		"title": "Longer Nights",
+		"image": {
+			"url": "/img/Longer nights cover art_thumb.png",
+			"alt": "Cover art for single Longer Nights"
+		},
+		"youtube": "https://www.youtube.com/watch?v=P3B_Y8zU8x4",
+		"spotify": "https://open.spotify.com/track/2WYw3XOhNUHNd0DftnZKQ4",
+		"hyperfollow": "https://share.amuse.io/track/alta-luna-longer-nights",
+		"photographer": {
+			"name": "Ziggy Marlissa",
+			"url": "http://ziggymarlissa.com"
+		},
+		"acoustic_youtube_url": ""
+	},
+	{
 		"title": "The Chain",
 		"image": {
 			"url": "/img/The Chain.jpg",
@@ -7,10 +22,11 @@
 		},
 		"youtube": "https://www.youtube.com/watch?v=T9gI5mdzUBI",
 		"spotify": "https://open.spotify.com/track/2dL8aR6tkVCzIKJg6jnqiw",
-		"hyperfollow": "https://distrokid.com/hyperfollow/altaluna1/the-chain",
+		"hyperfollow": "https://share.amuse.io/track/alta-luna-the-chain",
 		"photographer": {
 			"name": "Geert Mulder",
 			"url": "http://geertmulderphotography.com"
-		}
+		},
+		"acoustic_youtube_url": "https://www.youtube.com/watch?v=aI856aDVcFk"
 	}
 ]

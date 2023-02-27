@@ -11,9 +11,20 @@
 	export let hyperfollow: string;
 	export let photographerName: string;
 	export let photographerUrl: string;
+	export let acousticYoutubeUrl: string;
+	export let amountOfColumns: number;
+
+	let columnClasses: string;
+	if (amountOfColumns === 1) {
+		columnClasses = "column is-one-third is-offset-one-third";
+	} else if (amountOfColumns === 2) {
+		columnClasses = "column is-one-quarter is-offset-2"
+	} else {
+		columnClasses = "column is-one-third";
+	}
 </script>
 
-<div class="column is-one-third">
+<div class={columnClasses}>
 	<div class="card">
 		<div class="card-image">
 			<figure class="image is-1by1">
@@ -34,6 +45,15 @@
 						<Fa icon={faCloud} size="2x" />
 					</a>
 				</p>
+				{#if acousticYoutubeUrl !== ""}
+					<hr>
+					<h3>Acoustic</h3>
+					<p>
+						<a href="{acousticYoutubeUrl}">
+							<Fa icon={faYoutube} size="2x" />
+						</a>
+					</p>
+				{/if}
 				<p>
 					Photo by <a href={photographerUrl} target="_blank" rel="noreferrer"
 						>{photographerName}</a

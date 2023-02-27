@@ -23,6 +23,8 @@
 	});
 
 	let currentYear = new Date().getFullYear();
+
+	let amountOfColumns = musicDb.length;
 </script>
 
 <Navbar />
@@ -51,9 +53,6 @@
 	<div class="container has-text-centered">
 		<h2 class="title">Music</h2>
 		<div class="columns">
-			{#if musicDb.length === 1}
-				<div class="column" />
-			{/if}
 
 			{#each musicDb as release}
 				<MusicCard
@@ -65,12 +64,10 @@
 					hyperfollow={release.hyperfollow}
 					photographerName={release.photographer.name}
 					photographerUrl={release.photographer.url}
+					acousticYoutubeUrl={release.acoustic_youtube_url}
+					amountOfColumns={amountOfColumns}
 				/>
 			{/each}
-
-			{#if musicDb.length === 1}
-				<div class="column" />
-			{/if}
 		</div>
 	</div>
 </section>
