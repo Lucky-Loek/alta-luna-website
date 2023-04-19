@@ -1,5 +1,20 @@
 [
 	{
+		"title": "Nightcap",
+		"image": {
+			"url": "/img/Nightcap cover art final.png",
+			"alt": "Cover art for single Nightcap"
+		},
+		"youtube": "https://www.youtube.com/watch?v=XI5FXb4t6Ic",
+		"spotify": "https://open.spotify.com/track/7EOejcfhevrKIa2ldVNxOU",
+		"hyperfollow": "https://share.amuse.io/track/alta-luna-nightcap",
+		"photographer": {
+			"name": "Thomas van der Sneppen",
+			"url": "http://instagram.com/tsnep1971"
+		},
+		"acoustic_youtube_url": ""
+	},
+	{
 		"title": "Longer Nights",
 		"image": {
 			"url": "/img/Longer nights cover art_thumb.png",
