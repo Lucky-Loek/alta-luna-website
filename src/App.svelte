@@ -17,9 +17,15 @@
 	let upcomingTours = tourDb.filter((tour) => {
 		return new Date(tour.date) >= new Date();
 	});
+	upcomingTours.sort((a, b) => {
+		return new Date(a.date) - new Date(b.date); // old to new
+	});
 
 	let pastTours = tourDb.filter((tour) => {
 		return new Date(tour.date) < new Date();
+	});
+	pastTours.sort((a, b) => {
+		return new Date(b.date) - new Date(a.date); // new to old
 	});
 
 	let currentYear = new Date().getFullYear();
