@@ -162,7 +162,7 @@
 		</div>
 		<p>Or send us an email for booking requests or other information:</p>
 		<a href="mailto:info@altalunaband.com">info@altalunaband.com</a>
-		<p><strong class="has-text-white">Presskit: </strong><a href="presskit/Presskit.zip">find it here</a></p>
+		<p><strong class="has-text-white">Presskit: </strong><a href="Presskit.zip">find it here</a></p>
 	</div>
 </section>
 
