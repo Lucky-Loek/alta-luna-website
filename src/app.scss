@@ -7,16 +7,23 @@ $dark: $black;
 $dark-bis: $black;
 $grey-dark: $black;
 $grey-darker: $black;
-$blue: #5176a3;
-$white: #e8bc38;
-$white-bis: #e8b338;
-$background: $white;
+// $blue: #5176a3;
+$blue: #84aabf;
+// $white: #e8bc38;
+// $white-bis: #e8b338;
+// $background: $white;
+
+$al-yellow: #e8bc38;
 
 @import "~bulma/bulma/bulma";
 
 @font-face {
-	font-family: 'Plume';
-	src: url(assets/fonts/Plume-Free-Brush-Font.otf);
+	font-family: 'Bebas Neue';
+	src: url(assets/fonts/BebasNeue-Regular.ttf);
+}
+
+a:hover {
+	color: $white;
 }
 
 h1,
@@ -25,8 +32,8 @@ h3,
 h4,
 h5,
 h6,
-.plume {
-	font-family: 'Plume';
+.al-font {
+	font-family: 'Bebas Neue';
 }
 
 .navbar-item {

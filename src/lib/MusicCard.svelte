@@ -25,15 +25,15 @@
 </script>
 
 <div class={columnClasses}>
-	<div class="card">
+	<div class="card has-background-dark has-text-white">
 		<div class="card-image">
 			<figure class="image is-1by1">
 				<img src={imageUrl} alt={imageAlt} />
 			</figure>
 		</div>
-		<div class="card-content has-background-white-bis">
+		<div class="card-content">
 			<div class="content has-text-centered">
-				<h3>{title}</h3>
+				<h3 class="has-text-white">{title}</h3>
 				<p>
 					<a href={spotify}>
 						<Fa icon={faSpotify} size="2x" />
@@ -47,7 +47,7 @@
 				</p>
 				{#if acousticYoutubeUrl !== ""}
 					<hr>
-					<h3>Acoustic</h3>
+					<h3 class="has-text-white">Acoustic</h3>
 					<p>
 						<a href="{acousticYoutubeUrl}">
 							<Fa icon={faYoutube} size="2x" />

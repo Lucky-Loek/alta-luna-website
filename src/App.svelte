@@ -37,27 +37,40 @@
 
 <section class="hero">
 	<figure class="image">
-		<img src="/img/press_foto.jpg" alt="Band members of Alta Luna laughing" />
+		<img src="/img/ALTA LUNA Press photo.jpg" alt="Band members of Alta Luna posing for statue" />
 	</figure>
 </section>
 
-<section class="section is-medium has-background-white-bis" id="about">
+<section class="section is-medium has-background-dark has-text-white" id="about">
 	<div class="container has-text-centered">
-		<h2 class="title">About us</h2>
+		<h2 class="title has-text-white">About us</h2>
 		<p>
-			Imagine sitting behind the wheel of a beautiful car, driving underneath a
-			clear and starry sky while on the way to your great love. Alta Luna is the
-			perfect soundtrack for that trip. This group of five friends from the
-			Netherlands are easily recognized by their melancholic sound, driving
-			drums and honest lyrics. If you like The War On Drugs, The
-			National or Inhaler, you will certainly love Alta Luna.
+			Alta Luna is a five-member indie rock band with a distinctive blend of honest lyrics, powerful drums, and
+			 catchy melodies. Alta Luna's influences are clearly felt in their music, drawing inspiration from icons
+			 such as The National, The War on Drugs, and Interpol. Last year, Alta Luna performed at events including
+			 Concert at Sea, Vestrock, and Bevrijdingsfestival Zeeland. On April 12th, Alta Luna will release the EP
+			 'Shorter Days, Longer Nights'. The EP features five penetrating tracks about the tumultuous course of a
+			 toxic relationship, losing oneself, and rediscovering oneself. An emotional rollercoaster that begins with
+			 the spark of attraction at the first encounter and ends with the bitter aftertaste of a hateful breakup.
+			 The EP 'Shorter Days, Longer Nights' is co-produced by Marien Dorleijn (Moss). To celebrate the EP, Alta
+			 Luna will tour Dutch venues.
+		</p>
+	</div>
+</section>
+<section class="section is-medium has-background-dark has-text-white" id="press">
+	<div class="container has-text-centered">
+		<h2 class="title has-text-white">What people say about us</h2>
+		<p>And although it's clear where Alta Luna gets its inspiration, the band still has something of their own,
+		so we have the 'follow' checkbox checked from today on the aforementioned streaming service. Mission
+		accomplished: Alta Luna nicely catches our attention at Vestrock.
+		<br><small>muziscene.nl</small>
 		</p>
 	</div>
 </section>
 
-<section class="section is-medium" id="music">
+<section class="section is-medium has-background-dark has-text-white" id="music">
 	<div class="container has-text-centered">
-		<h2 class="title">Music</h2>
+		<h2 class="title has-text-white">Music</h2>
 		<div class="columns">
 
 			{#each musicDb as release}
@@ -78,15 +91,15 @@
 	</div>
 </section>
 
-<section class="section is-medium has-background-white-bis" id="tour">
+<section class="section is-medium has-background-dark has-text-white" id="tour">
 	<div class="container has-text-centered">
-		<h2 class="title">Tour Dates</h2>
-		<table class="table is-fullwidth mx-auto has-background-white-bis">
+		<h2 class="title has-text-white">Tour Dates</h2>
+		<table class="table is-fullwidth mx-auto has-background-dark has-text-white">
 			<thead>
 				<tr>
-					<th class="has-text-centered">Date</th>
-					<th class="has-text-centered">Location</th>
-					<th class="has-text-centered">Website / Tickets</th>
+					<th class="has-text-centered has-text-white">Date</th>
+					<th class="has-text-centered has-text-white">Location</th>
+					<th class="has-text-centered has-text-white">Website / Tickets</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -112,12 +125,12 @@
 			{/if}
 		</a>
 		{#if showPastTours}
-		<table class="table is-fullwidth mx-auto has-background-white-bis">
+		<table class="table is-fullwidth mx-auto has-background-dark has-text-white">
 			<thead>
 				<tr>
-					<th class="has-text-centered">Date</th>
-					<th class="has-text-centered">Location</th>
-					<th class="has-text-centered">Setlist</th>
+					<th class="has-text-centered has-text-white">Date</th>
+					<th class="has-text-centered has-text-white">Location</th>
+					<th class="has-text-centered has-text-white">Setlist</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -130,9 +143,9 @@
 	</div>
 </section>
 
-<section class="section is-medium" id="contact">
+<section class="section is-medium has-background-dark has-text-white" id="contact">
 	<div class="container has-text-centered">
-		<h2 class="title">Contact</h2>
+		<h2 class="title has-text-white">Contact</h2>
 		<p>Visit our socials:</p>
 		<div class="content has-text-centered">
 			<p>
@@ -149,7 +162,7 @@
 		</div>
 		<p>Or send us an email for booking requests or other information:</p>
 		<a href="mailto:info@altalunaband.com">info@altalunaband.com</a>
-		<p><strong>Presskit: </strong><a href="presskit">find it here</a></p>
+		<p><strong class="has-text-white">Presskit: </strong><a href="presskit/Presskit.zip">find it here</a></p>
 	</div>
 </section>
 
@@ -159,7 +172,7 @@
 		to use our creative work, please contact us at
 		<a href="mailto:info@altalunaband.com">info@altalunaband.com</a>. Cover
 		photo by
-		<a href="https://ziggymarlissa.com/" target="_blank" rel="noreferrer"
-			>Ziggy Marlissa (ZM Creative)</a>.
+		<a href="https://joydroogsma.nl/" target="_blank" rel="noreferrer"
+			>Joy Droogsma</a>.
 	</div>
 </footer>
