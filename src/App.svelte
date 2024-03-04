@@ -30,7 +30,7 @@
 
 	let currentYear = new Date().getFullYear();
 
-	let amountOfColumns = musicDb.length;
+	let amountOfSongs = musicDb.length;
 </script>
 
 <Navbar />
@@ -60,10 +60,24 @@
 <section class="section is-medium has-background-dark has-text-white" id="press">
 	<div class="container has-text-centered">
 		<h2 class="title has-text-white">What people say about us</h2>
-		<p>And although it's clear where Alta Luna gets its inspiration, the band still has something of their own,
+		<p><em>And although it's clear where Alta Luna gets its inspiration, the band still has something of their own,
 		so we have the 'follow' checkbox checked from today on the aforementioned streaming service. Mission
-		accomplished: Alta Luna nicely catches our attention at Vestrock.
-		<br><small>muziscene.nl</small>
+		accomplished: Alta Luna nicely catches our attention at Vestrock.</em>
+		<br><small><a href="https://muziscene.nl/2023/06/04/zware-metalen-bepalen-zaterdag-op-vestrock/">muziscene.nl</a></small>
+		</p>
+		<br>
+		<p><em>“Faces” is not merely a single but a narrative cornerstone of this journey, highlighting Alta Luna’s talent
+		for storytelling through music. As they prepare to share their new work and embark on a tour of Dutch stages,
+		Alta Luna continues to solidify their place in the indie rock landscape, offering a sound that is both deeply
+		reflective and undeniably engaging.</em>
+		<br><small><a href="https://bsideguys.com/2024/03/02/weekly-new-releases-pt-1-mar-1st-2024/">B Side Guys</a></small>
+		</p>
+		<br>
+		<p><em>In other words we were eased into proceedings before being immersed in a big container load of sadness and
+		down-in-the-mouthism but it still comes across like a track that could soar across music festival fields with
+		all present on board with its teachings. Post-rock drama, a man on the ropes but the everlasting feeling that
+		passion will see him over the hill and into the sunset with a smile on his face.</em>
+		<br><small><a href="https://www.mp3hugger.com/2024/03/alta-luna-faces/">mp3hugger</a></small>
 		</p>
 	</div>
 </section>
@@ -72,7 +86,6 @@
 	<div class="container has-text-centered">
 		<h2 class="title has-text-white">Music</h2>
 		<div class="columns">
-
 			{#each musicDb as release}
 				<MusicCard
 					title={release.title}
@@ -84,7 +97,6 @@
 					photographerName={release.photographer.name}
 					photographerUrl={release.photographer.url}
 					acousticYoutubeUrl={release.acoustic_youtube_url}
-					amountOfColumns={amountOfColumns}
 				/>
 			{/each}
 		</div>

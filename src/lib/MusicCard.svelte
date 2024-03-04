@@ -12,19 +12,9 @@
 	export let photographerName: string;
 	export let photographerUrl: string;
 	export let acousticYoutubeUrl: string;
-	export let amountOfColumns: number;
-
-	let columnClasses: string;
-	if (amountOfColumns === 1) {
-		columnClasses = "column is-one-third is-offset-one-third";
-	} else if (amountOfColumns === 2) {
-		columnClasses = "column is-one-quarter is-offset-2"
-	} else {
-		columnClasses = "column is-one-third";
-	}
 </script>
 
-<div class={columnClasses}>
+<div class="column is-one-quarter">
 	<div class="card has-background-dark has-text-white">
 		<div class="card-image">
 			<figure class="image is-1by1">

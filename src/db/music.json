@@ -1,5 +1,20 @@
 [
 	{
+		"title": "Faces",
+		"image": {
+			"url": "/img/Faces_thumbnail.png",
+			"alt": "Cover art for single Faces"
+		},
+		"youtube": "https://www.youtube.com/watch?v=MMwAzoXMx5M",
+		"spotify": "https://open.spotify.com/track/2t3SAEC0cLeLZEa9R9iCp5",
+		"hyperfollow": "https://share.amuse.io/track/alta-luna-faces",
+		"photographer": {
+			"name": "Alta Luna",
+			"url": "http://altalunaband.com/"
+		},
+		"acoustic_youtube_url": ""
+	},
+	{
 		"title": "Nightcap",
 		"image": {
 			"url": "/img/Nightcap cover art final.png",

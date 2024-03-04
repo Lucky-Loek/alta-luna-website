@@ -7,7 +7,8 @@ export default defineConfig({
   plugins: [svelte()],
   resolve:{
     alias: {
-      '~bulma': path.resolve(__dirname, 'node_modules/')
+      '~bulma': path.resolve(__dirname, 'node_modules/'),
+      '~bulma-carousel': path.resolve(__dirname, 'node_modules/bulma-carousel/')
     }
   }
 })
